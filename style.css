@@ -17,6 +17,7 @@ body {
   font-style: normal;
   background-color: #001821;
   color: #ffffff;
+  -webkit-font-smoothing: antialiased;
 }
 
 .title {
@@ -99,6 +100,7 @@ body {
 }
 
 .contacts {
+  font-style: normal;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -120,9 +122,8 @@ body {
 
 .contacts__schedule {
   display: inline-block;
-
   font-size: 13px;
-  line-height: 18px;
+  line-height: 13px;
   text-decoration: underline;
   color: #98a4a8;
   font-style: normal;
@@ -136,12 +137,13 @@ body {
 .contacts__schedule-popup {
   width: 80%;
   position: absolute;
-  top: 65px;
+  top: 60px;
   border-radius: 5px;
   background-color: #cdd1d2;
   color: #1e1f20;
   text-align: left;
   padding: 11px 0 11px 19px;
+  line-height: 21px;
   /* display: none; */
 }
 
@@ -165,6 +167,7 @@ body {
   font-weight: 700;
 }
 .contacts__schedule-lunch {
+  font-weight: 600;
   display: inline-block;
   color: #1e1f20;
 }
