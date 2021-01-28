@@ -4,48 +4,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <title>Air Asia - авторские туры по азии</title>
 </head>
 
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="header__logo">
-        <a href="#" class="logo">
-          <img src="/" alt="logo" class="logo__img">
-        </a>
-      </div>
-      <div class="header__menu">
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#" class="menu__link">Главная</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Услуги</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <address class="contacts">
-        <a href="tel:88007003030" class="contacts__phone">
-          <span class="contacts__phone-num">88007003030</span>
-        </a>
-        <span class="contacts__schedule">График работы</span>
-        <div class="contacts__schedule-popup">
-          <span class="contacts__schedule-work">пн-вс 9:00 - 20:00</span>
-          <span class="contacts__schedule-lunch">Обед 14-00 - 14-30</span>
+      <div class="container container--flex">
+        <div class="header__logo">
+          <a href="./" class="logo">
+            <img src="/img/logo.png" alt="logo" class="logo__img">
+          </a>
         </div>
-      </address>
+        <div class="header__menu">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <address class="contacts">
+          <a href="tel:88007003030" class="contacts__phone">
+            <span class="contacts__phone-num">8 800 700 30 30</span>
+          </a>
+          <span class="contacts__schedule">График работы</span>
+          <div class="contacts__schedule-popup">
+            <span class="contacts__schedule-work">пн-вс 09:00 - 20:00</span>
+            <span class="contacts__schedule-lunch">Обед 14-00 - 14-30</span>
+          </div>
+        </address>
+      </div>
     </header>
     <div class="main">
       <div class="hero">
-        <h1 class="hero__title title">Авторские туры по азии</h1>
-        <div class="hero__description">Открой для себя азию</div>
-        <a href="#" class="hero__btn btn">Подробнее</a>
+        <div class="container">
+          <h1 class="hero__title title">Авторские туры по Aзии</h1>
+          <div class="hero__description">Открой для себя Азию</div>
+          <a href="#" class="hero__btn btn">Подробнее</a>
+        </div>
       </div>
 
       <section class="tours">
