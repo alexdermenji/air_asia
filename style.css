@@ -51,13 +51,14 @@ body {
   justify-content: space-between;
   flex: 1;
   align-items: center;
+  min-height: 55px;
 }
 
 /* HEADER */
 
 .header {
-  margin-top: 31px;
-  margin-bottom: 126px;
+  margin-top: 33px;
+  margin-bottom: 117px;
 }
 .logo {
   display: block;
@@ -72,18 +73,21 @@ body {
 
 .header__menu {
   flex: 1;
+  padding-top: 10px;
 }
 
 .menu__list {
   display: flex;
 }
 .menu__item {
+  display: inline-block;
   list-style-type: none;
 }
 .menu__item:not(:last-child) {
   margin-right: 54px;
 }
 .menu__link {
+  display: block;
   color: #ffffff;
   text-decoration: none;
 }
@@ -95,27 +99,28 @@ body {
 }
 
 .contacts {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   width: 200px;
-  position: relative;
 }
 
 .contacts__phone {
   text-decoration: none;
   color: #ffffff;
   font-style: normal;
+  padding-top: 10px;
 }
 .contacts__phone-num {
   font-size: 26px;
-  line-height: 35px;
+  line-height: 26px;
   text-decoration: none;
 }
 
 .contacts__schedule {
   display: inline-block;
-  margin-bottom: 14px;
+
   font-size: 13px;
   line-height: 18px;
   text-decoration: underline;
@@ -131,13 +136,13 @@ body {
 .contacts__schedule-popup {
   width: 80%;
   position: absolute;
-  bottom: -90%;
+  top: 65px;
   border-radius: 5px;
   background-color: #cdd1d2;
   color: #1e1f20;
   text-align: left;
   padding: 11px 0 11px 19px;
-  display: none;
+  /* display: none; */
 }
 
 .contacts__schedule:hover + .contacts__schedule-popup {
@@ -147,9 +152,9 @@ body {
 .contacts__schedule-popup:after {
   content: "";
   position: absolute;
-  width: 20px;
-  height: 20px;
-  top: -10px;
+  width: 15px;
+  height: 15px;
+  top: -5px;
   right: 30%;
   transform: rotate(-45deg);
   background-color: #cdd1d2;
@@ -222,9 +227,10 @@ body {
   margin-bottom: 21px;
 }
 .card__conditions {
-  padding-left: 30px;
+  padding-left: 40px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 24px;
   color: #666666;
   font-size: 16px;
@@ -232,16 +238,17 @@ body {
 
 .card__conditions-calendar {
   position: relative;
+  width: 40%;
 }
 .card__conditions-meal {
   position: relative;
+  width: 40%;
 }
 
 .card__conditions-calendar:before {
   display: block;
   position: absolute;
-  left: -30px;
-  top: -5px;
+  left: -34px;
   content: "";
   width: 26px;
   height: 26px;
@@ -249,8 +256,8 @@ body {
 }
 .card__conditions-meal:before {
   position: absolute;
-  left: -40px;
-  top: -5px;
+  left: -48px;
+
   content: "";
   display: block;
   width: 36px;
@@ -261,6 +268,7 @@ body {
 .card__text {
   color: #303030;
   font-size: 14px;
+  line-height: 22px;
   margin-bottom: 24px;
 }
 
