@@ -25,6 +25,12 @@ body {
   font-weight: 700;
 }
 
+.section__title {
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 51px;
+}
+
 .btn {
   padding: 18px 40px;
   border-radius: 30px;
@@ -144,7 +150,7 @@ body {
   text-align: left;
   padding: 11px 0 11px 19px;
   line-height: 21px;
-  /* display: none; */
+  display: none;
 }
 
 .contacts__schedule:hover + .contacts__schedule-popup {
@@ -191,10 +197,8 @@ body {
 
 /* TOURS */
 
-.tours__title {
-  font-size: 36px;
-  line-height: 49px;
-  margin-bottom: 51px;
+.tours {
+  margin-bottom: 123px;
 }
 
 .tours__cards {
@@ -202,17 +206,15 @@ body {
   justify-content: space-between;
 }
 
-.card {
-  border-radius: 5px;
-  overflow: hidden;
-}
-
+/* TOURS CARD */
 .card:not(:last-child) {
   margin-right: 27px;
 }
 
-/* TOURS CARD */
-
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+}
 .card__img-bg {
   display: block;
   width: 100%;
@@ -285,4 +287,90 @@ body {
 .card__btn:hover {
   color: #ffffff;
   background-color: #f5170e;
+}
+
+/* NEWS */
+.news {
+  margin-bottom: 47px;
+}
+
+.news__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__card {
+  padding: 252px 30px 30px 30px;
+}
+
+.news__card:not(:last-child) {
+  margin-right: 25px;
+}
+
+.news__card--1 {
+  background: url("img/plain.png") no-repeat;
+  flex: 1;
+}
+.news__card--2 {
+  background: url("img/Surfer.png") no-repeat;
+  flex: 1;
+}
+.news__date {
+  margin-bottom: 12px;
+  display: block;
+}
+.news__text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.news__title {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 3.5px;
+}
+
+/* PAGINATOR */
+.paginator {
+  display: flex;
+  justify-content: center;
+}
+
+.paginator__list {
+  list-style-type: none;
+}
+.paginator__item {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.paginator__link {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 21px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  line-height: 32px;
+  text-align: center;
+}
+
+.paginator__title {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 32px;
+  margin-right: 25px;
+}
+
+.paginator__link:hover,
+.paginator__link:active {
+  color: #a14541;
+  background-color: #ffffff;
+}
+
+.paginator__link--active {
+  color: #a14541;
+  background-color: #ffffff;
 }
