@@ -60,10 +60,13 @@ body {
   min-height: 55px;
 }
 
+.index--wrapper {
+  background: url("img/bg.jpg") center top no-repeat;
+}
 /* HEADER */
 
 .header {
-  margin-top: 33px;
+  padding-top: 33px;
   margin-bottom: 117px;
 }
 .logo {
