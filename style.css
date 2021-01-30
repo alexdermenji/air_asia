@@ -208,7 +208,7 @@ body {
   justify-content: space-between;
 }
 
-.tours__card {
+.tours__card:not(:last-child) {
   margin-right: 27px;
 }
 
