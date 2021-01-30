@@ -214,6 +214,7 @@ body {
 }
 
 .card {
+  flex: 1;
   border-radius: 5px;
   overflow: hidden;
 }
