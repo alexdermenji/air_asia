@@ -208,10 +208,11 @@ body {
   justify-content: space-between;
 }
 
-/* TOURS CARD */
-.card:not(:last-child) {
+.tours__card {
   margin-right: 27px;
 }
+
+/* TOURS CARD */
 
 .card {
   flex: 1;
