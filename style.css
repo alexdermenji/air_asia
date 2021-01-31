@@ -310,7 +310,11 @@ body {
 }
 
 .news__card {
-  padding: 252px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 30px 30px 30px;
+  min-height: 394px;
 }
 
 .news__card:not(:last-child) {
