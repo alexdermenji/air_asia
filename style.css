@@ -101,6 +101,12 @@ body {
   text-decoration: none;
 }
 
+.menu__link--active {
+  pointer-events: none;
+  cursor: default;
+  color: #da0100;
+}
+
 .menu__link:hover,
 .menu__link:active {
   color: #da0100;
