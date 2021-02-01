@@ -82,7 +82,6 @@ body {
 
 .header__menu {
   flex: 1;
-  padding-top: 10px;
 }
 
 .menu__list {
@@ -209,6 +208,15 @@ body {
   margin-bottom: 123px;
 }
 
+.tours__title::after {
+  margin-left: 12px;
+  content: "";
+  width: 21px;
+  height: 28px;
+  display: inline-block;
+  background-image: url("img/flame.png");
+}
+
 .tours__cards {
   display: flex;
   justify-content: space-between;
@@ -242,7 +250,6 @@ body {
   margin-bottom: 21px;
 }
 .card__conditions {
-  padding-left: 40px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -251,33 +258,34 @@ body {
   font-size: 16px;
 }
 
-.card__conditions-calendar {
+.card__conditions_icon {
+  padding-left: 40px;
   position: relative;
-  width: 40%;
-}
-.card__conditions-meal {
-  position: relative;
-  width: 40%;
+  width: 50%;
+  line-height: 36px;
 }
 
-.card__conditions-calendar:before {
+.card__conditions_icon::before {
   display: block;
   position: absolute;
-  left: -34px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   content: "";
   width: 26px;
   height: 26px;
+}
+
+.card__conditions-meal {
+  padding-left: 50px;
+}
+
+.card__conditions-calendar:before {
   background-image: url("img/calendar.png");
 }
 .card__conditions-meal:before {
-  position: absolute;
-  left: -48px;
-
-  content: "";
-  display: block;
-  width: 36px;
-  height: 26px;
   background-image: url("img/meal.png");
+  width: 36px;
 }
 
 .card__text {
@@ -402,9 +410,22 @@ body {
   position: relative;
   width: 785px;
   background: url("img/mountains.jpg") no-repeat;
+  background-size: cover;
   padding: 72px 161px 68px 77px;
-  border: 5px;
+  border-radius: 10px;
   overflow: hidden;
+}
+
+.about__card::before {
+  content: "";
+  content: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .about__card_secondary {
@@ -423,6 +444,7 @@ body {
   font-weight: 700;
   color: #000000;
   margin-bottom: 37px;
+  position: relative;
 }
 
 .about__text {
@@ -430,6 +452,11 @@ body {
   line-height: 27px;
   color: #060606;
   margin-bottom: 72px;
+  position: relative;
+}
+
+.about__btn {
+  position: relative;
 }
 
 /* FOOTER */
