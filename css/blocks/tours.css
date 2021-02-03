@@ -1,0 +1,21 @@
+.tours {
+  margin-bottom: 123px;
+}
+
+.tours__title::after {
+  margin-left: 12px;
+  content: "";
+  width: 21px;
+  height: 28px;
+  display: inline-block;
+  background-image: url("img/flame.png");
+}
+
+.tours__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tours__card:not(:last-child) {
+  margin-right: 27px;
+}

@@ -1,0 +1,20 @@
+.partners {
+  background-color: #f4f5f5;
+  padding-top: 88px;
+}
+
+.partners__logos {
+  min-height: 188px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+  padding-bottom: 31px;
+}
+
+.partners__img {
+  flex: 1 1 auto;
+  min-width: 250px;
+  margin-bottom: 86px;
+}

@@ -1,0 +1,27 @@
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  display: inline-block;
+  list-style-type: none;
+}
+.menu__item:not(:last-child) {
+  margin-right: 54px;
+}
+.menu__link {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu__link--active {
+  pointer-events: none;
+  cursor: default;
+  color: #da0100;
+}
+
+.menu__link:hover,
+.menu__link:active {
+  color: #da0100;
+  cursor: pointer;
+}

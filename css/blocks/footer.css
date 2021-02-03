@@ -1,0 +1,28 @@
+.footer {
+  min-height: 55px;
+  padding-bottom: 38px;
+}
+
+.footer--service {
+  background-color: #001821;
+}
+
+.footer__items {
+  display: flex;
+  padding-top: 42px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer__logo {
+  margin-right: 78px;
+}
+
+.footer__contacts {
+  margin-left: 63px;
+}
+.footer__menu {
+  flex: 1;
+}

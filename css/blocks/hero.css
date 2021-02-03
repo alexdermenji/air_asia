@@ -1,0 +1,26 @@
+.hero--main {
+  margin-bottom: 246px;
+}
+
+.hero--service {
+  padding-top: 97px;
+  padding-bottom: 23px;
+}
+.hero__title {
+  width: 511px;
+  font-size: 72px;
+  line-height: 98px;
+}
+
+.hero__title--index {
+  margin-bottom: 27px;
+}
+
+.hero__title--service {
+  margin-bottom: 103px;
+}
+
+.hero__description {
+  font-size: 18px;
+  margin-bottom: 33px;
+}

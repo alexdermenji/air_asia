@@ -1,0 +1,77 @@
+.contacts {
+  font-style: normal;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 200px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  padding-top: 10px;
+}
+.contacts__phone-num {
+  font-size: 26px;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.contacts__schedule {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 13px;
+  text-decoration: underline;
+  color: #98a4a8;
+  font-style: normal;
+  cursor: pointer;
+}
+.contacts__schedule:hover,
+.contacts__schedule:active {
+  color: #ffffff;
+}
+
+.contacts__schedule-popup {
+  width: 80%;
+  position: absolute;
+  top: 60px;
+  border-radius: 5px;
+  background-color: #cdd1d2;
+  color: #1e1f20;
+  text-align: left;
+  padding: 11px 0 11px 19px;
+  line-height: 21px;
+  display: none;
+}
+
+.contacts__schedule:hover + .contacts__schedule-popup {
+  display: block;
+}
+
+.contacts__schedule-popup:after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: -5px;
+  right: 30%;
+  transform: rotate(-45deg);
+  background-color: #cdd1d2;
+}
+
+.contacts__schedule-work {
+  display: inline-block;
+  font-weight: 700;
+}
+.contacts__schedule-lunch {
+  font-weight: 600;
+  display: inline-block;
+  color: #1e1f20;
+}
+
+.contacts__note {
+  color: #9a9a9a;
+  font-size: 11px;
+}

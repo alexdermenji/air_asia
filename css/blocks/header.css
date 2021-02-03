@@ -1,0 +1,20 @@
+.header {
+  padding-top: 33px;
+  margin-bottom: 117px;
+}
+
+.header--service {
+  background: url("../../img/headline.jpg") no-repeat;
+  background-size: cover;
+  background-color: #001821;
+}
+
+.header__logo {
+  width: 85px;
+  height: 36px;
+  margin-right: 80px;
+}
+
+.header__menu {
+  flex: 1;
+}
