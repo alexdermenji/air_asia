@@ -17,4 +17,13 @@
   flex: 1 1 auto;
   min-width: 250px;
   margin-bottom: 86px;
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all 0.8s ease-in-out;
+}
+
+.partners__img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
 }
