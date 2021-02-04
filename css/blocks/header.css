@@ -1,20 +1,30 @@
 .header {
+  min-height: 55px;
   padding-top: 33px;
-  margin-bottom: 117px;
 }
 
+.header--index {
+  margin-bottom: 117px;
+}
 .header--service {
   background: url("../../img/headline.jpg") no-repeat;
   background-size: cover;
   background-color: #001821;
+  margin-bottom: 98px;
+}
+
+.header__cols {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
 }
 
 .header__logo {
   width: 85px;
   height: 36px;
   margin-right: 80px;
-}
-
-.header__menu {
-  flex: 1;
 }

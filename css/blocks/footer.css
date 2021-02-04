@@ -3,18 +3,24 @@
   padding-bottom: 38px;
 }
 
+.footer__col {
+  display: flex;
+}
+
 .footer--service {
   background-color: #001821;
 }
 
-.footer__items {
+.footer__cols {
   display: flex;
   padding-top: 42px;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__col {
+  align-items: center;
 }
 .footer__logo {
   margin-right: 78px;

@@ -36,13 +36,6 @@ body {
   margin: 0 auto;
 }
 
-.container--flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 55px;
-}
-
 .wrapper {
   overflow: hidden;
   min-width: 1160px;
