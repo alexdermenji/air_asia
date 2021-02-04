@@ -14,16 +14,23 @@
 }
 
 .partners__img {
-  flex: 1 1 auto;
-  min-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex: 1 1 auto; */
+  width: 250px;
+  height: 100px;
   margin-bottom: 86px;
-  filter: gray; /* IE5+ */
-  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  margin-left: 25px;
+  filter: grayscale(100%);
   -webkit-transition: all 0.8s ease-in-out;
+}
+
+.partners__img:nth-child(4n + 1) {
+  margin-left: 0;
 }
 
 .partners__img:hover {
   filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
+  filter: grayscale(0);
 }
