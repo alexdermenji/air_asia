@@ -5,10 +5,12 @@
 .news__cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .news__card {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 30px 30px 30px;
@@ -21,11 +23,9 @@
 
 .news__card--1 {
   background: url("../../img/plain.png") no-repeat;
-  flex: 1;
 }
 .news__card--2 {
   background: url("../../img/Surfer.png") no-repeat;
-  flex: 1;
 }
 .news__date {
   margin-bottom: 12px;

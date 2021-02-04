@@ -14,8 +14,9 @@
 .tours__cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.tours__card:not(:last-child) {
-  margin-right: 27px;
+.tours__card {
+  width: calc(100% / 3 - 54px / 3);
 }
