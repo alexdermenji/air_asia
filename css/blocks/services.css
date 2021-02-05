@@ -15,6 +15,11 @@
   margin-right: 5%;
 }
 
+.services__pic {
+  object-fit: cover;
+  height: 100%;
+}
+
 .services__content {
   flex: 1;
 }
