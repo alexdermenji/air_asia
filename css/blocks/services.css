@@ -11,7 +11,12 @@
 }
 
 .services__img {
-  margin-right: 58px;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.services__content {
+  flex: 1;
 }
 
 .services__text {
