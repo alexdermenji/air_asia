@@ -1,4 +1,5 @@
 .btn {
+  text-align: center;
   padding: 18px 40px;
   border-radius: 30px;
   display: inline-block;
@@ -9,6 +10,7 @@
   cursor: pointer;
   font-size: 14px;
   font-weight: 700;
+  transition: 0.5s;
 }
 
 .btn:hover {

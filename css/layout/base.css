@@ -57,6 +57,11 @@ img {
   background: url("../../img/bg.jpg") center top no-repeat;
 }
 
+.wrapper--hello {
+  background: url("../../img/bg_hello.jpg") center top no-repeat;
+  background-size: cover;
+}
+
 .wrapper--service {
   background-color: #fff;
 }
