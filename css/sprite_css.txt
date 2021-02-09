@@ -1,0 +1,53 @@
+. {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.-f {
+    width: 36px;
+    height: 36px;
+    background-position: -5px -5px;
+}
+
+.-f-1 {
+    width: 36px;
+    height: 36px;
+    background-position: -51px -5px;
+}
+
+.-in {
+    width: 36px;
+    height: 36px;
+    background-position: -97px -5px;
+}
+
+.-in-1 {
+    width: 36px;
+    height: 36px;
+    background-position: -143px -5px;
+}
+
+.-telegram {
+    width: 36px;
+    height: 36px;
+    background-position: -189px -5px;
+}
+
+.-telegram-1 {
+    width: 36px;
+    height: 36px;
+    background-position: -235px -5px;
+}
+
+.-vk {
+    width: 36px;
+    height: 36px;
+    background-position: -281px -5px;
+}
+
+.-vk-1 {
+    width: 36px;
+    height: 36px;
+    background-position: -327px -5px;
+}
