@@ -14,6 +14,8 @@
 }
 
 .header--reviews {
+  background: url("../../img/headline.jpg") no-repeat;
+  background-size: cover;
   margin-bottom: 98px;
   background-color: #001821;
 }
