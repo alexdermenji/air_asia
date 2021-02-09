@@ -1,0 +1,15 @@
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 76px;
+}
+.reviews__cols {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: calc(100% / 2 - 13px);
+}
+
+.reviews__card {
+  margin-bottom: 17px;
+}

@@ -13,6 +13,11 @@
   margin-bottom: 98px;
 }
 
+.header--reviews {
+  margin-bottom: 98px;
+  background-color: #001821;
+}
+
 .header__cols {
   display: flex;
   justify-content: space-between;

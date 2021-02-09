@@ -1,14 +1,11 @@
 .footer {
   min-height: 55px;
   padding-bottom: 38px;
+  background-color: #001821;
 }
 
 .footer__col {
   display: flex;
-}
-
-.footer--service {
-  background-color: #001821;
 }
 
 .footer__cols {
