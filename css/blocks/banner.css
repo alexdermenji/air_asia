@@ -1,0 +1,15 @@
+.banner {
+  min-height: 363px;
+  background: url("../../img/banner.jpg");
+  display: flex;
+  align-items: center;
+}
+.banner__content {
+  width: 100%;</div>
+}
+
+.banner__title {
+  max-width: 595px;
+  font-size: 48px;
+  line-height: 65px;
+}

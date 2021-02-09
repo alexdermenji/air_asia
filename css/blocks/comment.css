@@ -1,0 +1,11 @@
+.comment {
+  background-color: #f4f5f5;
+  padding-top: 62px;
+  padding-bottom: 96px;
+}
+
+.comment__title {
+  color: #1a1b1e;
+  font-size: 48px;
+  margin-bottom: 57px;
+}
