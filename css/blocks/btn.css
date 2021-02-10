@@ -21,6 +21,9 @@
   background-color: #ffffff;
   color: #f5170e;
   border: 1px #f5170e solid;
+}
+
+.btn--card {
   padding: 18px 30px;
 }
 

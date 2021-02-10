@@ -1,6 +1,6 @@
 .review {
   background-color: #f4f5f5;
-  padding: 50px 28px;
+  padding: 50px 28px 38px 28px;
   min-height: 542px;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,7 @@
 }
 .review__header {
   display: flex;
+  align-items: center;
   margin-bottom: 27px;
 }
 
@@ -56,7 +57,7 @@
 .review__text {
   color: #818181;
   line-height: 27px;
-  margin-bottom: 34px;
+  margin-bottom: 45px;
 }
 
 .review__date {

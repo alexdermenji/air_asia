@@ -1,5 +1,5 @@
 .services {
-  margin-bottom: 65px;
+  margin-bottom: 84px;
 }
 
 .services__block {
@@ -10,8 +10,12 @@
   margin-bottom: 49px;
 }
 
+.services__block:last-child {
+  margin-bottom: 65px;
+}
+
 .services__img {
-  width: 35%;
+  width: 40%;
   margin-right: 5%;
 }
 
@@ -22,6 +26,7 @@
 
 .services__content {
   flex: 1;
+  padding-top: 16px;
 }
 
 .services__text {

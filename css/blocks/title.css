@@ -2,14 +2,33 @@
   color: #ffffff;
   font-weight: 700;
 }
+.title--tours::after {
+  margin-left: 12px;
+  content: "";
+  width: 21px;
+  height: 28px;
+  display: inline-block;
+  background-image: url("img/flame.png");
+}
 
-.title--section {
+.title--tours {
   font-size: 36px;
-  line-height: 49px;
+  margin-bottom: 58px;
+}
+
+.title--news {
+  font-size: 36px;
   margin-bottom: 51px;
+}
+
+.title--services {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 37px;
 }
 
 .title--partners {
   font-size: 48px;
   color: #000000;
+  margin-bottom: 72px;
 }

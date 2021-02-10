@@ -6,6 +6,11 @@
   padding-top: 97px;
   padding-bottom: 23px;
 }
+
+.hero--reviews {
+  padding-top: 84px;
+  padding-bottom: 23px;
+}
 .hero__title {
   width: 511px;
   font-size: 72px;
@@ -13,11 +18,15 @@
 }
 
 .hero__title--index {
-  margin-bottom: 27px;
+  margin-bottom: 36px;
 }
 
 .hero__title--service {
   margin-bottom: 103px;
+}
+
+.hero__title--reviews {
+  margin-bottom: 116px;
 }
 
 .hero__description {

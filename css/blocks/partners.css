@@ -1,6 +1,7 @@
 .partners {
   background-color: #f4f5f5;
-  padding-top: 88px;
+  padding-top: 95px;
+  padding-bottom: 55px;
 }
 
 .partners__logos {
@@ -10,17 +11,14 @@
   flex-wrap: wrap;
   align-items: center;
   align-content: space-between;
-  padding-bottom: 31px;
 }
 
 .partners__img {
   display: flex;
   align-items: center;
-  justify-content: center;
-  /* flex: 1 1 auto; */
   width: 250px;
   height: 100px;
-  margin-bottom: 86px;
+  margin-bottom: 30px;
   margin-left: 25px;
   filter: grayscale(100%);
   -webkit-transition: all 0.8s ease-in-out;
@@ -28,6 +26,10 @@
 
 .partners__img:nth-child(4n + 1) {
   margin-left: 0;
+  justify-content: flex-start;
+}
+.partners__img:nth-child(4n) {
+  justify-content: flex-end;
 }
 
 .partners__img:hover {

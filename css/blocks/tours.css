@@ -1,14 +1,5 @@
 .tours {
-  margin-bottom: 123px;
-}
-
-.tours__title::after {
-  margin-left: 12px;
-  content: "";
-  width: 21px;
-  height: 28px;
-  display: inline-block;
-  background-image: url("img/flame.png");
+  margin-bottom: 129px;
 }
 
 .tours__cards {
