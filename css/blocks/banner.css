@@ -1,6 +1,7 @@
 .banner {
   min-height: 363px;
-  background: url("../../img/banner.jpg");
+  background: url("../../img/banner.jpg") no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
 }
