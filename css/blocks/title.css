@@ -8,7 +8,8 @@
   width: 21px;
   height: 28px;
   display: inline-block;
-  background-image: url("img/flame.png");
+  background-image: url("../../img/flame.png");
+  background-size: cover;
 }
 
 .title--tours {
