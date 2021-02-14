@@ -64,11 +64,16 @@
 }
 
 .form__checkbox {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  left: -9999px;  
 }
 .form__checkbox:checked ~ .form__option {
   background-color: #b9eae4;
 }
+
+.form__checkbox:focus ~ .form__option {
+  outline: rgb(59, 153, 252) auto 5px;
 
 .form__option--active {
   background-color: #b9eae4;
