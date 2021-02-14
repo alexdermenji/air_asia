@@ -1,6 +1,7 @@
 .btn {
   text-align: center;
   padding: 18px 40px;
+  border: 0;
   border-radius: 30px;
   display: inline-block;
   background-color: #f5170e;
@@ -15,6 +16,10 @@
 
 .btn:hover {
   background-color: #da0100;
+}
+
+.btn:focus {
+  outline: rgb(59, 153, 252) auto 5px;
 }
 
 .btn--secondary {
